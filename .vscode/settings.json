@@ -1,0 +1,13 @@
+{
+  "tslint.alwaysShowRuleFailuresAsWarnings": true,
+  "tslint.configFile": "tslint.json",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.renderControlCharacters": true,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  }
+}
