@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package sample;
+
+service AppService {
+  rpc FindOne (SampleDataById) returns (SampleData) {}
+}
+
+message SampleDataById {
+  int32 id = 1;
+}
+
+message SampleData {
+  int32 id = 1;
+  string name = 2;
+}
