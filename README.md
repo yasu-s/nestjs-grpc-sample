@@ -34,3 +34,7 @@ yarn install
 ```bash
 yarn start
 ```
+
+# 実行結果
+
+![grpc](https://user-images.githubusercontent.com/2668146/80302962-3041c300-87e8-11ea-86e5-11061a176347.gif)
