@@ -25,6 +25,20 @@
           "proto/**/*"
         ]
       }
+    },
+    "grpc-client": {
+      "type": "application",
+      "root": "apps/grpc-client",
+      "entryFile": "main",
+      "sourceRoot": "apps/grpc-client/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/grpc-client/tsconfig.build.json",
+        "deleteOutDir": true,
+        "watchAssets": true,
+        "assets": [
+          "proto/**/*"
+        ]
+      }
     }
   }
 }
